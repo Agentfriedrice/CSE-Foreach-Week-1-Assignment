@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: top;
+    align-items: left;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.intro{
+    flex: 1;
+    margin-right: 20px;    
+}
+
+.intro p{
+    font-size: larger;
+}
+
+.list{
+    font-size: larger;
+}
+
+.photo{
+    flex: 1;
+}
+
+.photo img{
+    max-width: 100%;
+    border-radius: 8px;
+}
